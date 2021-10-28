@@ -1,0 +1,17 @@
+/* *{
+    border: solid 1px black;
+} */
+
+
+
+.jumbotron {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg");
+    color: #fff;
+    height: 300px;
+    margin-bottom: 0px;
+    background-size: cover;
+    /* cover可以讓其中一邊等同於容器的寬度 */
+    /* contain讓太大的圖片可以完整呈現在容器中，空白的部分就repeat */
+    background-position: 0% 5%;
+}
+
